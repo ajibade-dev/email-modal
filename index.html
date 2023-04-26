@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Enter Password</title>
+</head>
+<body>
+    <!--Main Container-->
+    <div class="flex items-center justify-center bg-gray-200 mx-auto md:w-[918px] h-[800px]">
+        <!--Container to hold all items-->
+       <div class="rounded rounded-md bg-white p-[85px]">
+        <h1 class="text-3xl font-bold text-blue-900">
+            Enter your password
+        </h1>
+        <!--Image Div container-->
+        <div class="flex pt-6">
+            <img src="images/eclipse image.png" alt="">
+            <div class="ml-6 mt-4">
+                <h6 class="text-blue-900 text-[14px]">Business Accountant</h6>
+                <h2 class="text-[18px] font-semibold text-blue-900">Sarah Bills</h2>
+            </div>
+        </div>
+
+        <p class="text-blue-900 mt-8 mb-2 font-semibold  text-[14px]">Password</p>
+
+        <!--Div for password and padlock-->
+        <div class="flex items-center relative mb-6">
+            <input type="text" class="rounded rounded-md border border-blue-900 w-full p-2">
+            <h1 class="font-semibold text-2xl absolute ml-8 pb-4 text-blue-900">...........</h1>
+            <img src="images/way.png" alt="" class="absolute mr-4 w-5 h-5 ml-2 hover:cursor-pointer">
+            <img src="images/Frame.png" alt="" class="ml-2 hover:cursor-pointer">
+        </div>
+
+        <!--for button and signed in-->
+        <div class="flex justify-between items-center w-[88%] mb-8">
+
+            <!--Div for signed in button-->
+            <div class="flex items-center">
+                <div class="relative rounded rounded-full border border-blue-900 w-12 h-8">
+                   <div class="absolute bg-blue-900 rounded rounded-full w-4 h-4 mt-2 left-2 "></div> 
+                </div>
+                <p class="text-blue-900 font-semibold ml-1 text-[12px]">Stay signed in</p>
+            </div>
+            
+            <button class="bg-blue-900 text-white rounded rounded-md px-2 py-2 font-bold">Continue</button>
+        </div>
+
+        <p class="text-blue-900 font-semibold underline">Reset Password</p>
+       </div>
+     
+    </div>
+</body>
+</html>
